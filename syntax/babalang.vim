@@ -8,7 +8,7 @@ syntax keyword babaNot not
 syntax keyword babaAnd and
 
 " babalang patterns
-syntax match babaComment "//.*"
+syntax match babaComment "\v(//|#).*"
 
 " Categories
 highlight default link babaSpecialNouns Keyword
