@@ -1,3 +1,6 @@
+" Babalang is a case-insensitive language
+syntax case ignore
+
 " Babalang keywords
 syntax keyword babaSpecialNouns all empty image level
 syntax keyword babaVerbs is has make fear follow eat mimic
